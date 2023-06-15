@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#centro{
+    border: 2px solid black;
+width: 50%; /*Larguta, % o valor é dinamico e px o valor é fixo*/
+height: 100%; /*altura*/
+background-color: rgb(255, 255, 255);
+}
+h1{
+    margin: 10px 0; /*10px se refere a top e bottom e o 0 se refere ao left e rigth*/
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}
+#nome-publi{
+    margin-right: 60px;
+}
+
+#perfil{
+    border-radius:50%;
+}
+
+a{
+    color: #3bb4b4;
+}
+h6{
+    color: #747478;
+    text-align: center;
+}
+ul{
+    margin-left: 30px;
+}
